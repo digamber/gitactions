@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ./print-message@main
+      - uses: ./print-message@master
         with:
           message: "Hello, world!"
