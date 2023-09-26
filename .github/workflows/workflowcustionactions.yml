@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.1.0
-      - uses: ./print-message@master
+      - uses: cloud-dev-user/gitactions@master
         with:
           message: "Hello, world!"
