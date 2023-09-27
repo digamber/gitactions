@@ -1,0 +1,16 @@
+name: Print message workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.0
+      - uses: cloud-dev-user/gitactions@master
+        with:
+          message: "Hello!!!"
